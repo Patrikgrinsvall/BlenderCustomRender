@@ -1,0 +1,14 @@
+{
+  "PrimaryText"          :   {
+    "type"      : "Text",
+    "object"    : "Text",
+    "property"  : "body",
+    "value"     : "PlaceholderText"
+  },
+  "BackgroundColor"      :   {
+      "type"      : "Color",
+      "object"    : "Plane",
+      "property"  : "body",
+      "value"     : "PlaceholderText"
+  }
+}

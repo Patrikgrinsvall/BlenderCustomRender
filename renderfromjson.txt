@@ -1,0 +1,1 @@
+blender --background Samp.blend --python-text init --render-output //render_  -a -- --defaultoptions test.json
