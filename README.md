@@ -10,7 +10,7 @@ The values and properties that is customized is for now hardcoded, they should b
 
 # Usage
 Using external python script:
-- blender --background textintro1/textintro1.blend -P customize.py --render-output //render_  -a -- --defaultoptions default_customize.json
+- blender --background textintro1/textintro1.blend -P customize.py -F MPEG -x --render-output //render_   -- --defaultoptions default_customize.json
   
 Using script provided by project, where the script is called "init":
-- blender --background textintro1/textintro1.blend --python-text init customize.py --render-output //render_  -a -- --defaultoptions default_customize.json
+- blender --background textintro1/textintro1.blend --python-text init customize.py -F MPEG -x --render-output //render_  -- --defaultoptions default_customize.json
